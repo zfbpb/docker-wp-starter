@@ -15,6 +15,7 @@ services:
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
+    container_name: local_phpmyadmin
     depends_on:
       - mysql
     environment:
@@ -29,6 +30,7 @@ services:
     depends_on:
       - mysql
     image: wordpress:latest
+    container_name: local_wordpress
     ports:
       - "8020:80"
     restart: always
