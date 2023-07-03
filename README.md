@@ -1,7 +1,4 @@
 # Wordpress on Docker starter
-
-
-
 This guide will help you set up a Docker environment to run MySQL, phpMyAdmin, and WordPress using Docker Compose.
 
 ## Prerequisites
