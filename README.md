@@ -14,5 +14,5 @@ Before proceeding, make sure you have the following prerequisites installed on y
 * Clone this repo
 ```
    cd (project directory)
-   docker-compose up -d
+   docker compose up -d
 ```
