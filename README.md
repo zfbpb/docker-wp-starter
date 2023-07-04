@@ -3,7 +3,6 @@ This guide will help you set up a Docker environment to run MySQL, phpMyAdmin, a
 
 ## Prerequisites
 Before proceeding, make sure you have the following prerequisites installed on your system:
-* Linux or WSL
 * [Docker](https://www.docker.com/): Make sure Docker is installed and running on your machine.
 * Make sure the following ports are not being used on the host machine:
     * `8020` - used by WordPress
